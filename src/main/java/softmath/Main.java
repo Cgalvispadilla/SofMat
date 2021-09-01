@@ -48,15 +48,7 @@ public class Main {
                         double b;
                         a = metodoDe1Numero(myObj);
                         b = metodoDe1Numero(myObj);
-                        operadores.suma(a,b);
-                        break;
-                    //Multiplicación
-                    case 2:
-                        double a;
-                        double b;
-                        a = metodoDe1Numero(myObj);
-                        b = metodoDe1Numero(myObj);
-                        operadores.multiplicacion(a,b);
+                         System.out.println("La suma es: " operadores.suma(a,b));
                         break;
                     //logaritmo
                     case 3:
@@ -71,7 +63,7 @@ public class Main {
                         double b;
                         a = metodoDe1Numero(myObj);
                         b = metodoDe1Numero(myObj);
-                        operadores.raiz(a,b);
+                        System.out.println("La raíz es: " operadores.raiz(a,b));
                         break;
                     //Potencia
                     case 5:
@@ -88,7 +80,7 @@ public class Main {
                         double b;
                         a = metodoDe1Numero(myObj);
                         b = metodoDe1Numero(myObj);
-                        operadores.division(a,b);
+                         System.out.println("La división es: " operadores.division(a,b));
                         break;
                     //Resta
                     case 7:
